@@ -1,0 +1,44 @@
+video{
+  width:100%;
+}
+
+/* 弹幕样式控制 */
+.danmuArea{
+  display: flex;
+  flex-direction: row;
+}
+input{
+  border:1rpx solid #987938;
+  flex-grow: 1;
+  height: 100rpx;
+}
+button{
+  color: white;
+  text-align: center;
+  background-color: #987938;
+}
+
+/* 视频播放列表 */
+.videoList{
+  width:100%;
+  min-height: 400rpx;
+}
+.videoBar{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #987938;
+  margin:10rpx;
+}
+image{
+  width: 70rpx;
+  height: 70rpx;
+  margin: 20rpx;
+}
+text{
+  font-size: 50rpx;
+  color: #987938;
+  /* background-color: #987938; */
+  margin:10rpx;
+  flex-grow: 1;
+}
