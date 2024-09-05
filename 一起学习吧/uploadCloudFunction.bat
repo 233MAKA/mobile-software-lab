@@ -1,0 +1,1 @@
+"D:\Dwonload_JX\微信开发者工具\微信web开发者工具\cli.bat" cloud functions deploy --e garbage-sorting-lab3-6bgec6a8cf6 --n quickstartFunctions --r --project "D:\AAA中国海洋大学\11_2024夏\移动软件开发\最终项目\一起学习吧" --report_first --report

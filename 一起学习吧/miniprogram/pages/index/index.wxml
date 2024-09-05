@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="you">
+    <image></image>
+    <!-- 活跃图部分 -->
+    <view class="hotPicture0">
+      <text>学习情况</text>
+      <view class="hotPicture">
+        <view class="graph">
+          
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="your_friends">
+    <image src="../../images/noFriends.PNG"></image>
+    <!-- 活跃图部分 -->
+    <view class="hotPicture0">
+      <text>学习情况</text>
+      <view class="hotPicture"></view>
+    </view>
+    
+  </view> 
+</view>
+
+<!-- 输入框，输入任务 -->
+<view class="inputTask">
+  <button class="add">+</button>
+  <input placeholder="今日任务"></input>
+</view>
+
+<!-- 任务列表list(附带番茄钟) -->
+<view class="list"></view>

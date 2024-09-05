@@ -1,0 +1,73 @@
+.container{
+  display:flex;
+  background-color: #DFECE9;
+  height: 600rpx;
+}
+.you{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  /* 页面布局，
+  flex-direction: column;垂直布局 
+  flex-direction: row;水平布局
+  */
+  width: 100%;
+  height: 300rpx;
+  /* background-color: green; */
+  border-bottom: 2rpx solid #c5ccca;
+}
+
+.your_friends{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  height: 300rpx;
+  border-bottom: 2rpx solid #c5ccca;
+  /* background-color: green; */
+}
+image{
+  width: 230rpx;
+  height: 230rpx;
+  border-radius: 100%;
+  background-color: white;
+}
+.hotPicture0{
+  display:flex;
+  flex-direction: column;
+  width: 460rpx;
+  height: 230rpx;
+  background-color: white
+}
+.hotPicture{
+  width: 460rpx;
+  height: 200rpx;
+  background-color:#c5ccca;
+}
+.graph {
+  display: grid;
+  grid-template-columns: repeat(12, 21px);  /*竖向12列，21px宽*/
+  grid-template-rows: repeat(7, 21px);     /*横向7列，21px宽*/
+  padding-inline-start: 0px;
+  grid-auto-flow: column;               /*生成7*12的格子后，设置为竖向排布*/
+  margin: 20px 20px 5px 20px;
+}
+
+.add{
+  border-radius: 100%;
+  /* background-color: blue; */
+}
+.inputTask{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80rpx;
+  /* background-color: aqua; */
+}
+input{
+  width: 90%;
+}

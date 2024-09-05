@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/FindFriends/FindFriends",
+    "pages/statistics/statistics",
+    "pages/my/my",
+    "pages/tomato/tomato"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#5D9F8D",
+    "navigationBarTitleText": "一起学习吧"
+  },
+  "tabBar": {
+    "color": "#5D9F8D",
+    "selectedColor": "#5D9F8D",
+    "borderStyle":"white",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "./images/index.png",
+        "selectedIconPath": "./images/have_index.png",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/FindFriends/FindFriends",
+        "iconPath": "./images/FindFriends.png",
+        "selectedIconPath": "./images/have_FindFriends.png",
+        "text":"找搭子"
+      },
+      {
+        "pagePath":"pages/statistics/statistics",
+        "iconPath": "./images/statistics.png",
+        "selectedIconPath": "./images/have_statistics.png",
+        "text":"统计"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/have_my.png",
+        "text":"我的"
+      }
+      
+    ]
+  }
+}
